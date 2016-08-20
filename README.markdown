@@ -22,8 +22,10 @@ If you have Sphinx daemons running on your machine already, stopping those daemo
 
 If you want to use this gem with non-Rails apps, then you'll want something along the lines of this code to run while you're app is booting up:
 
-    # for non-Rails apps only
-    ThinkingSphinx::Ports.call [Dir.pwd, ENV['RACK_ENV']]
+```ruby
+# for non-Rails apps only
+ThinkingSphinx::Ports.call [Dir.pwd, ENV['RACK_ENV']]
+```
 
 Modify those variables as you wish - the important part is that overall argument for `ThinkingSphinx::Ports.call` be unique for the given app and environment.
 
