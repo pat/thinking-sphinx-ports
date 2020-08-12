@@ -9,7 +9,7 @@ This library is aimed development and test environments - each app and environme
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'thinking-sphinx-ports', '~> 0.1.1', :groups => [:development, :test]
+gem 'thinking-sphinx-ports', '~> 0.1.2', :groups => [:development, :test]
 ```
 
 **This gem is not meant for use in production environments.** Indeed, it may override your environment-specific settings, so make sure you be specific in the environments it should be loaded within.
