@@ -1,7 +1,7 @@
 # coding: utf-8
 Gem::Specification.new do |spec|
   spec.name          = "thinking-sphinx-ports"
-  spec.version       = '0.1.1'
+  spec.version       = '0.1.2'
   spec.authors       = ["Pat Allan"]
   spec.email         = ["pat@freelancing-gods.com"]
 
@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency 'thinking-sphinx', ['>= 3.0', '< 5.0']
+  spec.add_runtime_dependency 'thinking-sphinx', ['>= 3.0', '< 6.0']
   spec.add_runtime_dependency 'railties'
 
   spec.add_development_dependency "bundler", ">= 1.12"
